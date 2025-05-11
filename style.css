@@ -63,3 +63,7 @@ label:after {
     border-radius: 100%;
     transition: all 0.3s ease-in-out;
 }
+
+input:checked + label {
+    background: rgb(56, 245, 56);
+}
